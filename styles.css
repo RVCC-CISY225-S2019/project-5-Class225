@@ -1,71 +1,34 @@
 body {
     font-family: 'Philosopher', sans-serif;
     font-size: 1.2em;
-    * background: #0a0a7d;
 }
 
 img {
     max-width: 100%;
 }
 
-*.header {
-    * background-color: #F3F3F3;
-    *
-}
-
-*.hero {
-    * padding: 4em;
-    * max-width: 100%;
-    * background-color: #ec9714;
-    * color: #ffffff;
-    *
-}
-
-*img.my-picture {
-    * border: solid;
-    * border-color: #ffffff;
-    * border-radius: 50%;
-    *align-content: center;
-    *
-}
-
-*.my-name {
-    * color: ffffff;
-    * font-size: 1.8rem;
-    * font-weight: 700;
-    * text-align: center;
-    * text-transform: uppercase;
-    *
-}
-
-*.my-location {
-    * font-size: 1.8rem;
-    * font-weight: 600;
-    * text-align: center;
-    *
-}
-
 .form-container {
     background: #b0ff7f;
 }
 
-input,
-textarea
- {
-    font-family: 'Philosopher', sans-serif;
-    font-size: 1em;
-  * background: #b0ff7f;
-    min-width: 100%;
-}
-
 legend {
     font-size: 1.2em;
-   * color: #59d40d;
-
 }
+
+input,
+textarea {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    min-width: 100%;
+    }
+
+button {
+    cursor: pointer;
+}
+
 button:hover,
 button:focus {
-  outline   : none;
-  background: #000000;
-  color   : #ffffff;
+    outline: none;
+    background: #3b8509;
+    color: #ffffff;
 }
