@@ -8,40 +8,64 @@ img {
     max-width: 100%;
 }
 
-.header {
-    background-color: #F3F3F3;
+*.header {
+    * background-color: #F3F3F3;
+    *
 }
 
-.hero {
-    padding: 4em;
-    max-width: 100%;
-    background-color: #ec9714;
-    color: #ffffff;
-    }
-img.my-picture {
-    border: solid;
-    border-color: #ffffff;
-    border-radius: 50%;
-    align-content: center;
+*.hero {
+    * padding: 4em;
+    * max-width: 100%;
+    * background-color: #ec9714;
+    * color: #ffffff;
+    *
 }
 
-
-.my-name {
-    color: ffffff;
-    font-size: 1.8rem;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
+*img.my-picture {
+    * border: solid;
+    * border-color: #ffffff;
+    * border-radius: 50%;
+    *align-content: center;
+    *
 }
 
-.my-location {
-    font-size: 1.8rem;
-    font-weight: 600;
-    text-align: center;
+*.my-name {
+    * color: ffffff;
+    * font-size: 1.8rem;
+    * font-weight: 700;
+    * text-align: center;
+    * text-transform: uppercase;
+    *
 }
+
+*.my-location {
+    * font-size: 1.8rem;
+    * font-weight: 600;
+    * text-align: center;
+    *
+}
+
+.form-container {
+    background: #b0ff7f;
+}
+
+input,
+textarea
+ {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1em;
+  * background: #b0ff7f;
+    min-width: 100%;
+}
+
 legend {
     font-size: 1.2em;
-    color: #00ff00;
+   * color: #59d40d;
 
 }
-
+button:hover,
+button:focus {
+  outline   : none;
+  background: #000000;
+  color   : #ffffff;
+}
